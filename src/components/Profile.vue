@@ -1,21 +1,25 @@
 <template>
 	<div id="profile">
 		<div>
-			<h1 class="uk-heading-line uk-text-center uk-h1 uk-padding-small title" uk-scrollspy="cls:uk-animation-slide-top-small"><span>Our Profile</span></h1>
+			<h1 class="uk-heading-line uk-text-center uk-h1 uk-padding-small title" uk-scrollspy="cls:uk-animation-slide-top-small"><span>Nosotros</span></h1>
 			<div>
 				<div class="uk-column-1-2@l uk-padding-large">
+					<!-- Novia -->
 					<div uk-scrollspy="cls:uk-animation-slide-left-medium" class="uk-padding-large uk-padding-remove-horizontal uk-padding-remove-top">
-						<img src="http://menica.co.id/assets/theme7/orange/images/salem/gallery/bride.jpg" :alt="wanita.nama" class="uk-border-circle uk-width-medium@l uk-width-large uk-box-shadow-large uk-width-small">
+						<!-- Falta foto -->
+						<img src="../assets/images/novia1.jpg" :alt="novia.nombre" class="uk-border-circle uk-width-medium@l uk-width-large uk-box-shadow-large uk-width-small">
 						<div class="uk-padding-small uk-padding-remove-bottom">
-							<h2 class="uk-h2">{{ wanita.nama }}</h2>
-							<p class="text-deskripsi uk-width-large@l uk-width-xxlarge uk-text-justify uk-margin-auto-right uk-margin-auto-left">{{ wanita.deskripsi }}</p>
+							<h1 class="uk-h2">{{ novia.nombre }}</h1>
+							<p class="text-deskripsi uk-width-large@l uk-width-xxlarge uk-text-justify uk-margin-auto-right uk-margin-auto-left">{{ novia.datos }}</p>
 						</div>
 					</div>
+					<!-- Novio -->
 					<div uk-scrollspy="cls:uk-animation-slide-right-medium" class="uk-padding-large uk-padding-remove-horizontal  uk-padding-remove-bottom@m uk-padding-remove-bottom@s uk-padding-remove-bottom@xs uk-padding-remove-top">
-						<img src="http://menica.co.id/assets/theme6/grey/images/grey/gallery/groom.jpg" :alt="pria.nama" class="uk-border-circle uk-width-medium@l uk-width-large uk-box-shadow-large">
+						<!-- Falta foto -->
+						<img src="../assets/images/novio1.jpg" :alt="novio.nombre" class="uk-border-circle uk-width-medium@l uk-width-large uk-box-shadow-large">
 						<div class="uk-padding-small uk-padding-remove-bottom">
-							<h2 class="uk-h2">{{ pria.nama }}</h2>
-							<p class="text-deskripsi uk-width-large@l uk-width-xxlarge uk-text-justify uk-margin-auto-right uk-margin-auto-left">{{ pria.deskripsi }}</p>
+							<h1 class="uk-h2">{{ novio.nombre }}</h1>
+							<p class="text-deskripsi uk-width-large@l uk-width-xxlarge uk-text-justify uk-margin-auto-right uk-margin-auto-left">{{ novio.datos }}</p>
 						</div>
 					</div>
 				</div>
@@ -29,7 +33,8 @@ export default {
   name: 'Profile',
 
   data () {
-    return { pria: { nama: 'Fulan', deskripsi: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quo, id nostrum quam provident perspiciatis neque numquam commodi minima, aut soluta nulla, cum et eum ad veritatis veniam, dolore recusandae' }, wanita: { nama: 'Fulanah', deskripsi: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quo, id nostrum quam provident perspiciatis neque numquam commodi minima, aut soluta nulla, cum et eum ad veritatis veniam, dolore recusandae' } }
+	return { novia: { nombre: 'Damaris', datos: 'hola soy Damaris' }, 
+	novio: { nombre: 'Omar', datos: 'Hola soy Omar, Originario de Guadalajara, Estoy listo.' } }
   }
 }
 </script>

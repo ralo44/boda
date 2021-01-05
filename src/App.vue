@@ -53,7 +53,8 @@ export default {
 </script>
 
 <style lang="scss">
-  $colorprimary : #dd183f;
+  //$colorprimary : #dd183f;
+  $colorprimary : #a17188;
 
   @import url('https://fonts.googleapis.com/css?family=Niconne');
 
@@ -71,7 +72,8 @@ export default {
     color: #000000 !important;
   }
   .uk-heading-line {
-    background: #ef5974 !important;
+   // background: #ef5974 !important;
+    background: #a17188 !important;
   }   
   
   @media screen and (max-width: 1024px) {
