@@ -1,18 +1,30 @@
-Guardar en Git
+Guardar en Git---
+
+
+index
+Cambiar titulo--
+cuadro de titulo no desaparece--
+Hacer spa--
+
+Home
+añadir datos ---
+subir imagen --
 
 NAvBar
-
-Cambiar titulo
-cuadro de titulo no desaparece
-Hacer spa
+hacerlo invisible--
+mas grandes y vistosas las letras--
 
 
-
-Nosotros
-Actualizar nosotros
 
 Galería
+Implemntar lazy load
 Galería con fotos grandes
+Eliminar nosotros
+carusel de nosotros con informacion y ken effect
+Aumentar velocidad de galería
 
 Inivitado
 Agregar maps
+
+Gral
+Checar movimiento al ir a pagina

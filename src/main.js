@@ -11,6 +11,12 @@ import Icons from 'uikit/dist/js/uikit-icons'
 // load css
 import 'uikit/src/less/uikit.theme.less'
 
+//lazy_load
+import VueLazyload from 'vue-lazyload'
+//use lazy load
+Vue.use(VueLazyload)
+
+
 // loads the Icon plugin
 UIkit.use(Icons)
 

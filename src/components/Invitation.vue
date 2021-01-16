@@ -7,7 +7,7 @@
                 <h2>Los esperamos</h2>
                 <p>Sabado, 2 de octubre 2021<br>15:00 hrs.</p>
                 <div class="countdown uk-flex uk-visible@l">
-                    <div uk-grid uk-countdown="date: 2021-12-30T11:00:00+00:00" class="uk-margin-auto">
+                    <div uk-grid uk-countdown="date: 2021-10-09T11:17:00+00:00" class="uk-margin-auto">
                         <div>
                             <div class="uk-countdown-number uk-countdown-days"></div>
                             <div class="uk-countdown-label uk-margin-small uk-text-center">Days</div>
@@ -33,22 +33,22 @@
                     <div uk-grid uk-countdown="date: 2021-10-30T11:00:00+00:00" class="uk-margin-auto">
                         <div>
                             <div class="uk-countdown-number uk-countdown-days"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Days</div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center">Días</div>
                         </div>
                         <div class="uk-countdown-separator">:</div>
                         <div>
                             <div class="uk-countdown-number uk-countdown-hours"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Hours</div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center">Horas</div>
                         </div>
                         <div class="uk-countdown-separator">:</div>
                         <div>
                             <div class="uk-countdown-number uk-countdown-minutes"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Minutes</div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center">Minutos</div>
                         </div>
                         <div class="uk-countdown-separator">:</div>
                         <div>
                             <div class="uk-countdown-number uk-countdown-seconds"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Seconds</div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center">Segundos</div>
                         </div>
                     </div>
                 </div>
@@ -67,12 +67,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    $colorprimary : #dd183f;
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+  $colorprimary : #a17188;
+  body h2 p, .uk-logo {
+    font-family: 'Handlee', cursive !important;
+    font-size: 35px !important;
+  }
 
     #invitation {
         padding-top: 1px;
         padding-bottom: 50px;
-        background-color: #c1ebf7;
+        background-color: #ffffff;
     }
     .countdown  * {
         font-size: 30px !important;

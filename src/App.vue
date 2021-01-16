@@ -1,8 +1,8 @@
 <template>
   <div id="app" class="uk-overflow-hidden">
     <Navbar/>
-    <Home/>
-    <Profile/>
+    <!-- <Home/> -->
+    <!-- <Profile/> -->
     <Gallery/>
     <Story/>
     <Invitation/>
@@ -12,8 +12,8 @@
 
 <script>
 import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Profile from './components/Profile'
+// import Home from './components/Home'
+// import Profile from './components/Profile'
 import Gallery from './components/Gallery'
 import Story from './components/Story'
 import Invitation from './components/Invitation'
@@ -22,18 +22,18 @@ import Support from './components/Support'
 export default {
   name: 'app',
   components: {
-    Navbar, Home, Profile, Gallery, Story, Invitation, Support
+    Navbar,  Gallery, Story, Invitation, Support
   },
   head: {
     title: {
-      inner: 'Wedding',
+      inner: 'Damaris & Omar',
       separator: '-',
-      complement: 'Dewi & Danang'
+      complement: 'Nuestra boda'
     },
     // Meta tags
     meta: [
-      { name: 'application-name', content: 'weddinginvitation' },
-      { name: 'description', content: 'Fulanah & Fulan are getting married! Celebrate the day!', id: 'desc' }, // id to replace intead of create 
+      { name: 'application-name', content: 'Invitación a la boda' },
+      { name: 'description', content: 'Damaris & Omar celebra con nosotros', id: 'desc' }, // id to replace intead of create 
       // Facebook / Open Graph
       // { property: 'fb:app_id', content: '447049705696883' },
       // { property: 'og:title', content: 'Wedding - Fulanah & Fulan' },

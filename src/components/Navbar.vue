@@ -1,27 +1,24 @@
 <template>
 	<div>
-		<div id="nav-l">
-			<nav class="uk-navbar-container uk-margin uk-box-shadow-medium uk-visible@l" uk-scrollspy-nav="scroll: true;offset: 80;closest: li;" uk-sticky="bottom: body" uk-navbar>
-				<!-- Nombres -->
-				<div class="uk-navbar-left">
-					<div class="uk-navbar-center">
-						<a class="uk-navbar-item uk-logo" href="#home">Damaris <i class="uk-padding-medium" uk-icon="icon: heart"></i> Omar</a>
-					</div>
-				</div>
+		<div id="nav-l" class="uk-position-relative">
+			<home></home>
+    		<div class="uk-position-top">
+        		<nav class="uk-navbar-container uk-navbar-transparent uk-visible@l" uk-navbar>
 				<!-- Menus -->
-					<div class="uk-navbar-right">
+					<div class="uk-navbar-center">
 						
 							<ul class="uk-navbar-nav">
 								<li><a href="#profile">Nosotros</a></li>
 								<li><a href="#gallery">Galería</a></li>
+								<a class="uk-navbar-item uk-logo" href="#home">Damaris & Omar</a>
 								<li><a href="#story">Historia</a></li>
 								<li><a href="#invitation">Invitación</a></li>
 							</ul>
-
 					</div>
-			</nav>
+				</nav>
+			</div>
 		</div>
-		<!-- If cambio de tamaño -->
+		<!-- if -->
 		<nav class="uk-navbar-container uk-margin uk-box-shadow-medium uk-hidden@l nav-m" uk-scrollspy-nav="scroll: true;offset: 80;closest: li;" uk-sticky="bottom: body" uk-navbar="mode: click">
 			<a class="uk-navbar-item uk-logo" href="#home">Damaris <i class="uk-padding-medium" uk-icon="icon: heart"></i> Omar</a>
 			<div class="uk-navbar-right uk-padding-small uk-padding-remove-vertical">
@@ -40,12 +37,16 @@
 				</ul>
 			</div>
 		</nav>
+
 	</div>
 </template>
 
 <script>
-import $ from 'jquery'
+import $ from 'jquery';
+import home from '../components/Home';
+import Home from './Home.vue';
 export default {
+  components: { Home },
   name: 'Navbar',
 
   mounted: function(){
@@ -63,10 +64,10 @@ export default {
 		margin: 0 !important;
 	}
 	.uk-navbar-container {
-		background: $colorprimary !important;
+		background: '' ;
 	}
 	.uk-navbar-nav > li > a {
-		color: #bc949d !important;
+		color: #46141d !important;
 	}
 	.uk-navbar-nav > li > a:hover, .uk-navbar-nav > li > a:focus  {
 		color: #000000 !important;
@@ -87,7 +88,7 @@ export default {
 
 	@media screen and (max-width: 1024px) {
 		.uk-navbar-dropdown-nav > li > a {
-			color: #dd183f !important;
+			color: #a17188 !important;
 		}
 		.uk-navbar-dropdown-nav > li > a:hover, .uk-navbar-dropdown-nav > li > a:focus {
 			color: #000000 !important;
@@ -96,7 +97,7 @@ export default {
 			border-top: 40px solid transparent !important;
 			border-left: 108px solid transparent !important;
 			border-right: 108px solid transparent !important;
-			position: absolute !important;
+			position: relative !important;
 			top: 100% !important;
 			left: 0 !important;
 			content: "";
