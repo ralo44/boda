@@ -1,9 +1,12 @@
 <template>
 	<div>
 		<div id="nav-l" class="uk-position-relative">
-			<home></home>
+			<!-- <home></home> -->
     		<div class="uk-position-top">
-        		<nav class="uk-navbar-container uk-navbar-transparent uk-visible@l" uk-navbar>
+        		<!-- <nav class="uk-navbar-container uk-navbar-transparent " uk-navbar> -->
+					<nav class="uk-navbar-container uk-navbar-transparent " uk-scrollspy-nav="scroll: true;offset: 80;closest: li;" 
+					uk-sticky="bottom: true" uk-navbar>
+
 				<!-- Menus -->
 					<div class="uk-navbar-center">
 						
@@ -19,7 +22,9 @@
 			</div>
 		</div>
 		<!-- if -->
+		<!-- <home></home> -->
 		<nav class="uk-navbar-container uk-margin uk-box-shadow-medium uk-hidden@l nav-m" uk-scrollspy-nav="scroll: true;offset: 80;closest: li;" uk-sticky="bottom: body" uk-navbar="mode: click">
+
 			<a class="uk-navbar-item uk-logo" href="#home">Damaris <i class="uk-padding-medium" uk-icon="icon: heart"></i> Omar</a>
 			<div class="uk-navbar-right uk-padding-small uk-padding-remove-vertical">
 				<ul class="uk-navbar-nav">
@@ -44,9 +49,9 @@
 <script>
 import $ from 'jquery';
 import home from '../components/Home';
-import Home from './Home.vue';
+// import Home from './Home.vue';
 export default {
-  components: { Home },
+  components: { home },
   name: 'Navbar',
 
   mounted: function(){

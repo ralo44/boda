@@ -1,142 +1,144 @@
 <template>
-    <div id="invitation">
-        <h1 class="uk-heading-line uk-text-center uk-h1 uk-padding-small title" uk-scrollspy="cls:uk-animation-slide-top-small"><span>Estas invitado</span></h1>
-        <div class="uk-responsive-width uk-padding-large uk-overflow-hidden uk-padding-remove-top">
-           
-            <div class="uk-responsive-width uk-padding-large uk-padding-remove-bottom">
-                <h2>Los esperamos</h2>
-                <p>Sabado, 2 de octubre 2021<br>15:00 hrs.</p>
-                <div class="countdown uk-flex uk-visible@l">
-                    <div uk-grid uk-countdown="date: 2021-10-09T11:17:00+00:00" class="uk-margin-auto">
-                        <div>
-                            <div class="uk-countdown-number uk-countdown-days"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Days</div>
-                        </div>
-                        <div class="uk-countdown-separator">:</div>
-                        <div>
-                            <div class="uk-countdown-number uk-countdown-hours"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Hours</div>
-                        </div>
-                        <div class="uk-countdown-separator">:</div>
-                        <div>
-                            <div class="uk-countdown-number uk-countdown-minutes"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Minutes</div>
-                        </div>
-                        <div class="uk-countdown-separator">:</div>
-                        <div>
-                            <div class="uk-countdown-number uk-countdown-seconds"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Seconds</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="countdown uk-flex uk-hidden@l">
-                    <div uk-grid uk-countdown="date: 2021-10-30T11:00:00+00:00" class="uk-margin-auto">
-                        <div>
-                            <div class="uk-countdown-number uk-countdown-days"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Días</div>
-                        </div>
-                        <div class="uk-countdown-separator">:</div>
-                        <div>
-                            <div class="uk-countdown-number uk-countdown-hours"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Horas</div>
-                        </div>
-                        <div class="uk-countdown-separator">:</div>
-                        <div>
-                            <div class="uk-countdown-number uk-countdown-minutes"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Minutos</div>
-                        </div>
-                        <div class="uk-countdown-separator">:</div>
-                        <div>
-                            <div class="uk-countdown-number uk-countdown-seconds"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Segundos</div>
-                        </div>
-                    </div>
-                </div>
-                <a class="uk-button uk-button-small" href="https://www.google.co.id/maps/place/Bandung,+Kota+Bandung,+Jawa+Barat/@-6.9034443,107.5731168,12z/data=!3m1!4b1!4m5!3m4!1s0x2e68e6398252477f:0x146a1f93d3e815b2!8m2!3d-6.9174639!4d107.6191228" target="_blank"><img title="Directions" uk-tooltip="pos: bottom" class="uk-width-1-4" src="https://4.bp.blogspot.com/-Zt-ZsOW1AOI/Wi3wqJgMl3I/AAAAAAAAH-Q/fgrzu20YPBE9zCVR9vbm1h4d5QweXmARgCLcBGAs/s1600/maps.png" alt="Maps"></a>
-                </p>
-                <a class="uk-button uk-button-small uk-button-primary" href="#" target="_blank" title="Give words to both partners " uk-tooltip="pos: bottom">Give words to both partners <i uk-icon="icon: pencil"></i></a>
-            </div>
+  <div id="invitation" >
+    <h1
+      class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
+      uk-scrollspy="cls:uk-animation-slide-top-small"
+    >
+      <span>Estas invitado</span>
+    </h1>
+
+    <div class="uk-container uk-container-large">
+      <div class="uk-child-width-1-2@s" uk-grid>
+        <div>
+          <div class="uk-card uk-card-default uk-card-large uk-card-body">
+            <img src="../assets/images/invitation.jpeg" alt="" />
+          </div>
         </div>
+        <div>
+          <div class="uk-card uk-card-default uk-card-large uk-card-body">
+            <div class="uk-card-body">
+              <p>¿Cómo llegar?</p>
+              <a
+                class="uk-button uk-button-small"
+                href="https://goo.gl/maps/twDB6fCF2hF1ipgi7"
+                target="_blank"
+                ><img
+                  title="Hacienda Xochicihuatl"
+                  uk-tooltip="pos: bottom"
+                  class="uk-width-1-4"
+                  src="../assets/images/mapa.png"
+                  alt="Mapa"
+              /></a>
+              <p>¿Dónde hospedarse?</p>
+              <a
+                class="uk-button uk-button-small"
+                ><img
+                  title="Hacienda Xochicihuatl"
+                  uk-tooltip="pos: bottom"
+                  class="uk-width-1-4"
+                  src="../assets/images/hotel.png"
+                  alt="Hotel"
+              /></a>
+              <p>VILLAS TENEX: Carr a Tenextepec, La Soledad, 74365, Atlixco, Puebla</p>
+              <p>Hostal Imagina, Atlixco, Puebla </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
+
+
 
 <script>
 export default {
-  name: 'Invitation',
+  name: "Invitation",
 };
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-  $colorprimary : #a17188;
-  body h2 p, .uk-logo {
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+$colorprimary: #a17188;
+body h2 p,
+.uk-logo {
+  font-family: "Handlee", cursive !important;
+  font-size: 35px !important;
+}
+
+#invitation {
+  padding-top: 1px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+.countdown * {
+  font-size: 30px !important;
+  color: $colorprimary !important;
+}
+.uk-countdown-number,
+.uk-countdown-separator {
+  line-height: 1 !important;
+}
+.countdown .uk-countdown-label {
+  font-size: 20px !important;
+}
+.countdown .uk-grid > * {
+  padding-left: 10px !important;
+}
+.text-nama {
+  padding-top: 10px;
+  padding-bottom: 10px !important;
+}
+.text-nama h1 {
+  font-size: 50px !important;
+  margin: 0 !important;
+}
+.text-nama h5,
+.text-nama h3 {
+  margin: 0 !important;
+}
+.text-nama p,
+.text-nama h4 {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.uk-width-1-4 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+h4 {
+  margin-top: 15px !important;
+}
+h5 {
+  color: #666666 !important;
+}
+ .uk-card-body {
     font-family: 'Handlee', cursive !important;
-    font-size: 35px !important;
+    font-size: 20px !important;
+    border-style: solid;
+    border-color: $colorprimary;
   }
 
-    #invitation {
-        padding-top: 1px;
-        padding-bottom: 50px;
-        background-color: #ffffff;
-    }
-    .countdown  * {
-        font-size: 30px !important;
-        color: $colorprimary !important;
-    }
-    .uk-countdown-number, .uk-countdown-separator {
-        line-height: 1 !important;
-    }
-    .countdown .uk-countdown-label {
-        font-size: 20px !important;
-    }
-    .countdown .uk-grid > * {
-        padding-left: 10px !important;
-    }
-    .text-nama {
-        padding-top: 10px;
-        padding-bottom: 10px !important;
-    }
-    .text-nama h1{
-        font-size: 50px !important;
-        margin: 0 !important;
-    }
-    .text-nama h5, .text-nama h3 {
-        margin: 0 !important;
-    }
-    .text-nama p,.text-nama h4 {
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
-    }
-    .uk-width-1-4 {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-    h4 {
-        margin-top: 15px !important;
-    }
-    h5 {
-        color: #666666 !important;
-    }
-
-    @media screen and (max-width: 1024px) {
-        .countdown  * {
-            font-size: 20px !important;
-            color: $colorprimary !important;
-        }
-        .uk-countdown-number, .uk-countdown-separator {
-            line-height: 1 !important;
-        }
-        .countdown .uk-countdown-label {
-            font-size: 12px !important;
-        }
-        .countdown .uk-grid > * {
-            padding-left: 5px !important;
-        }
-        .text-nama h1 {
-            font-size : 27px !important;
-        }
-        .text-nama h5 {
-            font-size : 12px !important;
-        }
-    }
+@media screen and (max-width: 1024px) {
+  .countdown * {
+    font-size: 20px !important;
+    color: $colorprimary !important;
+  }
+  .uk-countdown-number,
+  .uk-countdown-separator {
+    line-height: 1 !important;
+  }
+  .countdown .uk-countdown-label {
+    font-size: 12px !important;
+  }
+  .countdown .uk-grid > * {
+    padding-left: 5px !important;
+  }
+  .text-nama h1 {
+    font-size: 27px !important;
+  }
+  .text-nama h5 {
+    font-size: 12px !important;
+  }
+}
 </style>

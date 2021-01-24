@@ -1,9 +1,6 @@
 <template>
-	<div id="support">
-		<!-- <h1 class="uk-heading-line uk-text-center uk-h1 uk-padding-small title" uk-scrollspy="cls:uk-animation-slide-top-small"><span>Supported</span></h1> -->
-	
-
-			<p class="copyright">ralo44 &copy; 2020</p>
+	<div id="support">	
+			<p class="copyright">ralo44 &copy; 2021</p>
 	</div>
 </template>
 
@@ -16,7 +13,8 @@ export default {
 
 <style lang="css" scoped>
 	#support {
-        background-color: #c1ebf7;
+        background-color: #a17188;
+		color: white;
     } 
     .wrapper {
     	padding-bottom: 5px;

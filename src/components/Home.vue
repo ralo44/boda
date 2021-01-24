@@ -71,24 +71,17 @@
                   <div class="uk-countdown-number uk-countdown-seconds"></div>
                   <div class="uk-countdown-label uk-margin-small uk-text-center">Segundos</div>
                </div>
-              <!-- Segundos :
-              :<div class="uk-countdown-separator">:</div> -->
-              <!-- <div>
-                            <div class="uk-countdown-number uk-countdown-seconds"></div>
-                            <div class="uk-countdown-label uk-margin-small uk-text-center">Segundos</div>
-                        </div> -->
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Movimiento -->
-    <div class="uk-hidden@l">
+    <div class="uk-overflow-hidden uk-hidden@l">
       <div
         class="uk-card uk-responsive-height uk-animation-slide-bottom-medium"
         uk-parallax="target: #home; y: 600; sepia: 40;easing: 0;"
       >
-        <!-- <img src="../assets/images/image2.jpeg" alt="Couple" class="uk-padding-small uk-padding-remove-top"> -->
       </div>
 
       <div

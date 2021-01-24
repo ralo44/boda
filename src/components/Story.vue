@@ -5,13 +5,14 @@
       <div class="uk-responsive-width uk-padding-large uk-overflow-hidden uk-grid-collapse uk-visible@l uk-child-width-1-2 uk-position-relative" uk-grid>
       
         <div class="garis-vertical"></div>
+        
         <!-- uno -->
-        <div class="uk-padding-large" uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
-          <img src="https://4.bp.blogspot.com/-Yrfy4giyg-8/Wi3wqVL70aI/AAAAAAAAH-U/zn0yG3lFtZ4YuItwhBtUjA8VthTKbu8IwCLcBGAs/s1600/story1.jpg" alt="Story 1 First Met">
+        <div class="uk-padding-small" uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+          <img class="uk-border-pill" src="../assets/images/story1.jpeg" alt="">
         </div>
-        <div class="uk-padding-large">
+        <div class="uk-padding-small">
           <div class="uk-card uk-card-default uk-card-hover">
-            <div class="bulet-kanan"></div>
+            <!-- <div class="bulet-kanan"></div> -->
             <div class="uk-card-header uk-card-primary">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                     <div class="uk-width-expand">
@@ -27,9 +28,9 @@
           </div>
         </div>
         <!-- Dos   -->
-        <div class="uk-padding-large">
+        <div class="uk-padding-small">
           <div class="uk-card uk-card-default uk-card-hover">
-            <div class="bulet-kiri"></div>
+            <!-- <div class="bulet-kiri"></div> -->
             <div class="uk-card-header uk-card-primary">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                     <div class="uk-width-expand">
@@ -44,16 +45,17 @@
             </div>
           </div>
         </div>
-        <div class="uk-padding-large" uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
-          <img src="https://3.bp.blogspot.com/-kBl3JyQ4HbI/Wi3wq9MUDRI/AAAAAAAAH-Y/MD24gejxGV0c2qeXyKlgyMj-qW3Fncs9wCLcBGAs/s1600/story2.jpg" alt="Story 2 First Dated">
+        <div class="uk-padding-small" uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
+          <img class="uk-border-pill" src="../assets/images/story2.jpeg" alt="">
         </div>
+
         <!-- tres -->
-        <div class="uk-padding-large" uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
-          <img src="https://2.bp.blogspot.com/-nRvCKrAaYFw/Wi3wq9BivII/AAAAAAAAH-c/r8IFQLrApS8dJiHnMEfsvDBUS3UWUMPAQCLcBGAs/s1600/story3.jpg" alt="Story 3 Khitbah">
+        <div class="uk-padding-small" uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
+          <img class="uk-border-pill" src="../assets/images/story3.jpeg"  alt="Story 3 Khitbah">
         </div>
-        <div class="uk-padding-large">
+        <div class="uk-padding-small">
           <div class="uk-card uk-card-default uk-card-hover">
-            <div class="bulet-kanan"></div>
+            <!-- <div class="bulet-kanan"></div> -->
             <div class="uk-card-header uk-card-primary">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                     <div class="uk-width-expand">
@@ -64,7 +66,7 @@
                 </div>
             </div>
             <div class="uk-card-body">
-              <p>Despúes de más de dos años de novios, decidimos dar el gran paso y comprometernos para hacer una vida juntos.</p>
+              <p>Despúes de más de tres años de novios, decidimos dar el gran paso y comprometernos para hacer una vida juntos.</p>
             </div>
           </div>
         </div>
@@ -72,7 +74,7 @@
 <!-- Doble -->
        <div class="uk-responsive-width uk-padding-large uk-overflow-hidden uk-grid-collapse uk-hidden@l uk-position-relative" uk-grid>
         <div class="uk-padding-large uk-width-expand" uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
-          <img src="https://4.bp.blogspot.com/-Yrfy4giyg-8/Wi3wqVL70aI/AAAAAAAAH-U/zn0yG3lFtZ4YuItwhBtUjA8VthTKbu8IwCLcBGAs/s1600/story1.jpg" alt="Story 1 First Met">
+          <img class="uk-border-pill" src="../assets/images/story1.jpeg" alt="Story 1 First Met">
         </div>
         <div class="uk-padding-medium">
           <div class="uk-card uk-card-default uk-card-hover">
@@ -92,7 +94,7 @@
           </div>
         </div>
         <div class="uk-padding-large uk-width-expand" uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true">
-          <img src="https://3.bp.blogspot.com/-kBl3JyQ4HbI/Wi3wq9MUDRI/AAAAAAAAH-Y/MD24gejxGV0c2qeXyKlgyMj-qW3Fncs9wCLcBGAs/s1600/story2.jpg" alt="Story 2 First Dated">
+          <img class="uk-border-pill" src="../assets/images/story2.jpeg" alt="Story 2 First Dated">
         </div>
         <div class="uk-padding-medium">
           <div class="uk-card uk-card-default uk-card-hover">
@@ -111,7 +113,7 @@
           </div>
         </div>
         <div class="uk-padding-large uk-width-expand" uk-scrollspy="cls: uk-animation-slide-left-medium; repeat: true">
-          <img src="https://2.bp.blogspot.com/-nRvCKrAaYFw/Wi3wq9BivII/AAAAAAAAH-c/r8IFQLrApS8dJiHnMEfsvDBUS3UWUMPAQCLcBGAs/s1600/story3.jpg" alt="Story 3 Khitbah">
+          <img class="uk-border-pill"  src="../assets/images/story3.jpeg" alt="Story 3 Khitbah">
         </div>
         <div class="uk-padding-medium">
           <div class="uk-card uk-card-default uk-card-hover">
@@ -125,7 +127,7 @@
                 </div>
             </div>
             <div class="uk-card-body">
-              <p>Despúes de más de dos años de novios, decidimos dar el gran paso y comprometernos para hacer una vida juntos.</p>
+              <p>Despúes de más de tres años de novios, decidimos dar el gran paso y comprometernos para hacer una vida juntos.</p>
             </div>
           </div>
         </div>
@@ -155,7 +157,7 @@ export default {
     background-color: #ffffff;
   } 
   img {
-    width: 70%;
+    width: 50%;
   }
   .uk-card-primary {
     background-color: $colorprimary;
@@ -179,7 +181,7 @@ export default {
   }
   .bulet-kanan {
     position: absolute;
-    left: calc(-75px + calc(-25px / 2));
+    left: calc(-0px + calc(3px / 2));
     top: calc(37px - calc(29px / 2));
     width: 25px;
     height: 25px;
