@@ -17,19 +17,20 @@
         class="uk-width-expand uk-margin-auto uk-margin-auto-vertical uk-padding-small"
       >
         <h1
-          class="uk-text-center uk-h1 uk-animation-slide-top home"
+          class="uk-text-rigth uk-h1 uk-animation-slide-top home"
           uk-parallax="target: #home; y: 300;blur: 0,05;easing: 0;"
         >
           {{ title }}
         </h1>
+
         <p
-          class="uk-text-center uk-padding-large uk-animation-slide-top uk-padding-remove-top uk-padding-remove-bottom uk-h3 home"
+          class="uk-text-rigth uk-padding-large uk-animation-slide-top uk-padding-remove-top uk-padding-remove-bottom uk-h3 home"
           uk-parallax="target: #home; y: 200; blur: 0,05;easing: 0;"
         >
           {{ deskripsi }}
         </p>
         <p
-          class="uk-text-center uk-padding-large uk-animation-slide-top uk-padding-remove-top uk-padding-remove-bottom uk-h3 home"
+          class="uk-text-rigth uk-padding-large uk-animation-slide-top uk-padding-remove-top uk-padding-remove-bottom uk-h3 home"
           uk-parallax="target: #home; y: 200; blur: 0,05;easing: 0;"
         >
           {{ lugar }}
@@ -68,37 +69,75 @@
               </div>
               <div class="uk-countdown-separator">:</div>
               <div>
-                  <div class="uk-countdown-number uk-countdown-seconds"></div>
-                  <div class="uk-countdown-label uk-margin-small uk-text-center">Segundos</div>
-               </div>
+                <div class="uk-countdown-number uk-countdown-seconds"></div>
+                <div class="uk-countdown-label uk-margin-small uk-text-center">
+                  Segundos
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Movimiento -->
+
+    <!-- Versión celular -->
     <div class="uk-overflow-hidden uk-hidden@l">
       <div
         class="uk-card uk-responsive-height uk-animation-slide-bottom-medium"
         uk-parallax="target: #home; y: 600; sepia: 40;easing: 0;"
-      >
-      </div>
+      ></div>
 
       <div
-        class="uk-responsive-width uk-margin-auto uk-margin-auto-vertical uk-padding-medium"
+        class="uk-responsive-width uk-margin-auto uk-margin-auto-vertical uk-padding-small"
       >
         <h1
-          class="uk-text-center uk-h1 uk-animation-slide-top home"
+          class="uk-text-right uk-h1 uk-animation-slide-top home"
           uk-parallax="target: #home; y: 300;blur: 0,05;easing: 0;"
         >
           {{ title }}
         </h1>
         <p
-          class="uk-text-center uk-padding-large uk-animation-slide-top uk-padding-remove-top uk-h3 home"
-          uk-parallax="target: #profile; y: 200; blur: 0,05;easing: 0;"
+          class="uk-text-right uk-padding-small uk-animation-slide-top uk-padding-remove-top uk-padding-remove-bottom uk-h3 home"
+          uk-parallax="target: #home; y: 200; blur: 0,05;easing: 0;"
         >
           {{ deskripsi }}
+          <br />
+          {{ lugar }}
         </p>
+
+        <div
+          class="cuenta uk-flex-inline uk-align-right"
+          uk-grid2
+          uk-countdown="date: 2021-10-09T11:17:00+00:00"
+        >
+          <div>
+            <div class="uk-countdown-number uk-countdown-days"></div>
+            <div class="uk-countdown-label uk-margin-small uk-text-center">
+              Días
+            </div>
+          </div>
+          <div class="uk-countdown-separator">:</div>
+          <div>
+            <div class="uk-countdown-number uk-countdown-hours"></div>
+            <div class="uk-countdown-label uk-margin-small uk-text-center">
+              Horas
+            </div>
+          </div>
+          <div class="uk-countdown-separator">:</div>
+          <div>
+            <div class="uk-countdown-number uk-countdown-minutes"></div>
+            <div class="uk-countdown-label uk-margin-small uk-text-center">
+              Minutos
+            </div>
+          </div>
+          <div class="uk-countdown-separator">:</div>
+          <div>
+            <div class="uk-countdown-number uk-countdown-seconds"></div>
+            <div class="uk-countdown-label uk-margin-small uk-text-center">
+              Segundos
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -113,7 +152,7 @@ export default {
     return {
       title: "Damaris & Omar",
       deskripsi: "Octubre 9, 2021, 5 pm ",
-      lugar: " Xochicihuatl, Puebla"
+      lugar: " Xochicihuatl, Puebla",
     };
   },
 };
@@ -123,9 +162,9 @@ export default {
 $colorprimary: #a17188;
 
 #home {
-  background-image: url("../assets/images/foto1.jpg");
+  background-image: url("../assets/images/foto.jpg");
   mix-blend-mode: multiply !important;
-   max-width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -141,6 +180,7 @@ $colorprimary: #a17188;
   font-size: 80px !important;
   // color: $colorprimary !important;
 }
+
 .uk-countdown-number,
 .uk-countdown-separator {
   line-height: 1 !important;
@@ -150,6 +190,22 @@ $colorprimary: #a17188;
 }
 .countdown .uk-grid > * {
   padding-left: 20px !important;
+}
+
+.cuenta * {
+  font-size: 15px !important;
+  // color: $colorprimary !important;
+}
+.uk-cuenta-number,
+.uk-cuenta-separator {
+  width: 1px;
+  // line-height: 0 !important;
+}
+.cuenta .uk-cuenta-label {
+  font-size: 10px !important;
+}
+.cuenta .uk-grid2 > * {
+  padding-right: 10px !important;
 }
 
 @media screen and (max-width: 1024px) {

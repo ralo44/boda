@@ -2,9 +2,9 @@
   <div id="app" class="uk-overflow-hidden">
     <Navbar/>
     <Home/>
-    <!-- <Profile/> -->
     <Story/>
     <Gallery/>
+    <Profile/>
     <Invitation/>
     <Support/>
   </div>
@@ -13,7 +13,7 @@
 <script>
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-// import Profile from './components/Profile'
+ import Profile from './components/Profile'
 import Gallery from './components/Gallery'
 import Story from './components/Story'
 import Invitation from './components/Invitation'
@@ -22,7 +22,7 @@ import Support from './components/Support'
 export default {
   name: 'app',
   components: {
-    Navbar, Home, Gallery, Story, Invitation, Support
+    Navbar, Home, Gallery, Story, Profile, Invitation, Support
   },
   head: {
     title: {

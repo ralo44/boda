@@ -23,7 +23,7 @@
                 </div>
             </div>
             <div class="uk-card-body">
-              <p>Nos conocimos en la playa de Varadero, Cuba. Por azhares del destino en un viaje de amigos donde tuvimos la oportunidad de platicar.  </p>
+              <p>Nos conocimos en la playa de Varadero, Cuba. Por azares del destino en un viaje de amigos, donde tuvimos la oportunidad de platicar.  </p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="uk-card-body">
-              <p>Despúes de extensas llamadas por telefono, al fin nos volvimos a encontrar pero ahora en México. </p>
+              <p>Despúes de extensas llamadas por teléfono, al fin nos volvimos a encontrar pero ahora en México. </p>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div class="uk-card-body">
-              <p>Nos conocimos en la playa de Varadero, Cuba. Por azhares del destino en un viaje de amigos donde tuvimos la oportunidad de platicar.  </p>
+              <p>Nos conocimos en la playa de Varadero, Cuba. Por azares del destino en un viaje de amigos, donde tuvimos la oportunidad de platicar.  </p>
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="uk-card-body">
-              <p>Despúes de extensas llamadas por telefono, al fin nos volvimos a encontrar pero ahora en México. </p>
+              <p>Despúes de extensas llamadas por teléfono, al fin nos volvimos a encontrar pero ahora en México. </p>
             </div>
           </div>
         </div>

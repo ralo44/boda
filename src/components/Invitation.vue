@@ -1,5 +1,5 @@
 <template>
-  <div id="invitation" >
+  <div id="invitation">
     <h1
       class="uk-heading-line uk-text-center uk-h1 uk-padding-small title"
       uk-scrollspy="cls:uk-animation-slide-top-small"
@@ -17,7 +17,7 @@
         <div>
           <div class="uk-card uk-card-default uk-card-large uk-card-body">
             <div class="uk-card-body">
-              <p>¿Cómo llegar?</p>
+              <b>¿Cómo llegar?</b>
               <a
                 class="uk-button uk-button-small"
                 href="https://goo.gl/maps/twDB6fCF2hF1ipgi7"
@@ -29,9 +29,9 @@
                   src="../assets/images/mapa.png"
                   alt="Mapa"
               /></a>
-              <p>¿Dónde hospedarse?</p>
-              <a
-                class="uk-button uk-button-small"
+              <br />
+              <b>¿Dónde hospedarse?</b>
+              <a class="uk-button uk-button-small"
                 ><img
                   title="Hacienda Xochicihuatl"
                   uk-tooltip="pos: bottom"
@@ -39,8 +39,11 @@
                   src="../assets/images/hotel.png"
                   alt="Hotel"
               /></a>
-              <p>VILLAS TENEX: Carr a Tenextepec, La Soledad, 74365, Atlixco, Puebla</p>
-              <p>Hostal Imagina, Atlixco, Puebla </p>
+              <p>
+                VILLAS TENEX: Carr a Tenextepec (244-103-7205), La Soledad,
+                74365, Atlixco, Puebla
+              </p>
+              <p>Hostal Imagina (55-9197-7610) , Atlixco, Puebla</p>
             </div>
           </div>
         </div>
@@ -112,12 +115,12 @@ h4 {
 h5 {
   color: #666666 !important;
 }
- .uk-card-body {
-    font-family: 'Handlee', cursive !important;
-    font-size: 20px !important;
-    border-style: solid;
-    border-color: $colorprimary;
-  }
+.uk-card-body {
+  font-family: "Handlee", cursive !important;
+  font-size: 20px !important;
+  border-style: solid;
+  border-color: $colorprimary;
+}
 
 @media screen and (max-width: 1024px) {
   .countdown * {
