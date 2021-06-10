@@ -1,6 +1,10 @@
-# dd-weddinginvitation
+El frontend  está hecho en Vuejs, la idea es por medio de un Modal acceder a una pantalla donde se puede elegir el regalo,despúes te envia a otra pantalla donde  puedes pagar por medio de tarjeta de credito con Paypal.
+Los datos son obtenidos del Front End por medio de axios, con la idea de proteger las claves de Paypal.
 
-> A wedding invitation project made with vue.js
+El Backend esta pensado para funcionar con Nodejs, Express, Sequelize y Sqlite. EL problema es donde alojar esa aplicación online para conectarla con el Frontend.
+
+## Frontend 
+Vuejs  + uikit
 
 ## Getting Started
 
